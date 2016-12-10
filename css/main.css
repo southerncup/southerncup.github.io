@@ -508,3 +508,20 @@ p.paragraph {
   margin-top: 20px;
   margin-left: 0px;
 }
+
+.logo img {
+  height: 40px;
+}
+
+.nav-link {
+  font-family: 'Varela Round', serif;
+}
+
+.footer .nav-link {
+  color: #fff;
+}
+
+.copyright {
+  font-family: 'Varela Round', serif;
+  color: #fff;
+}
