@@ -331,6 +331,7 @@ p.paragraph {
 }
 
 .south-map {
+  padding-bottom: 180px;
   background: url(../img/south-20.png) no-repeat top center;
   /*-webkit-background-size: cover;
   -moz-background-size: cover;
@@ -363,4 +364,147 @@ p.paragraph {
   max-width: 100px;
   /*max-height:100%;*/
   vertical-align: middle;
+}
+
+.club-section {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../img/cortado.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  width: 100%;
+
+  padding: 30px;
+
+  border-bottom: 1px solid rgba(0,0,0,.1);
+
+  color: white;
+}
+
+.club-section div {
+  font-family: 'Varela Round', serif;
+}
+
+.club-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  width: 100%;
+  font-size: 44px;
+}
+
+.club-section div.right-space {
+  justify-content: flex-end;
+}
+
+.club-section div.club-price {
+  width: 100%;
+  font-size: 68px;
+  justify-content: flex-start;
+}
+
+.club-section div.club-price span {
+  font-family: 'Varela Round', serif;
+  font-size: 32px;
+  line-height: 100px;
+  color: #888;
+}
+
+.club-section div.club-description {
+  padding-bottom: 70px;
+
+  font-size: 24px;
+}
+
+.club-section div.club-tagline {
+  width: 100%;
+
+  font-size: 24px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.club-section div.sub-cortado {
+  margin-top: 150px;
+}
+
+@media all and (min-width: 600px) {
+  .club-section {
+    width: 100%;
+  }
+
+  .club-title {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .club-section div.club-description {
+    text-align: center;
+  }
+
+
+  .club-section div.sub-cortado {
+    display: flex;
+  }
+
+  .club-section div.left-space {
+    width: 50%;
+  }
+  .club-section div.right-space {
+    display: flex;
+    width: 50%;
+  }
+
+  .club-section div.club-tagline {
+    font-size: 32px;
+  }
+
+  .logo-bar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+}
+
+@media all and (min-width: 900px) {
+
+  .club-section div.left-space {
+    justify-content: center;
+  }
+
+  .club-section div.club-price {
+    display: flex;
+    justify-content: center;
+  }
+
+  .club-section div.right-space {
+    justify-content: center;
+  }
+
+  .logo-bar {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+}
+
+.header .heading.main-tagline {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.header {
+  padding-bottom: 0px;
+}
+
+.ctas-button.send-coffee {
+  background: #444;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 0px;
 }
